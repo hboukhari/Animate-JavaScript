@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Heren look</title>
+  <script src="../js/hp_heren-kleding_array.js"></script>
+  <script type="text/javascript" src="../js/javascript-heren.js"></script>
+  <link rel="stylesheet" href="../css/myStyle.css" >
+</head>
+
+<body>
+  <main>
+  <div class="container">
+   <div class="homebtn"><a href="../him-and-her-2.html">Home</a></div>
+  	<img id="heren-bw" src="../images/mannen/look-1/mannen-zw.jpg" alt="heren look" width="600" height="400" usemap="#Map">
+    <map name="Map">
+      <area  
+      onmouseover="swapImage('heren-bw', 'spijkerbloes.jpg');" 
+      onmouseout="swapImage('heren-bw', 'mannen-zw.jpg');"
+      onclick="veranderContent(0, 'one');"       
+      shape="poly" coords="-28,336,-5,322,-7,298,55,264,75,273,103,258,157,292,236,339,178,377,134,406,107,424,44,391" href="#" alt="spijkerbloes">
+      <area 
+      onmouseover="swapImage('heren-bw', 'tshirts.jpg');" 
+      onmouseout="swapImage('heren-bw', 'mannen-zw.jpg');"
+      onclick="veranderContent(1, 'two ');"  
+      shape="poly" coords="153,160,236,107,255,107,289,130,307,135,317,130,330,138,328,150,376,171,388,164,409,172,495,220,412,279" href="#" alt="tshirts">
+      <area 
+      onmouseover="swapImage('heren-bw', 'spijkerbroek.jpg');" 
+      onmouseout="swapImage('heren-bw', 'mannen-zw.jpg');"
+      onclick="veranderContent(2, 'three');"    
+      shape="poly" coords="260,64,314,36,361,-4,526,40,489,79,424,60,462,99,410,124,393,144,303,92" href="#" alt="spijkerbroek">
+      <area 
+      onmouseover="swapImage('heren-bw', 'schoenen.jpg');" 
+      onmouseout="swapImage('heren-bw', 'mannen-zw.jpg');"
+      onclick="veranderContent(3, 'four');"    
+      shape="poly" coords="494,114,494,87,506,59,526,70,537,42,558,53,577,56,618,86,654,108,646,124,626,128,615,143,582,149,542,135" href="#" alt="schoenen">
+      <area 
+      onmouseover="swapImage('heren-bw', 'bermuda.jpg');" 
+      onmouseout="swapImage('heren-bw', 'mannen-zw.jpg');"
+      onclick="veranderContent(4, 'five');"    
+      shape="poly" coords="740,192,712,203,697,207,650,186,618,173,613,152,724,68,822,94,810,157,788,162" href="#" alt="bermuda">
+      <area 
+      onmouseover="swapImage('heren-bw', 'assesoires.jpg');" 
+      onmouseout="swapImage('heren-bw', 'mannen-zw.jpg');"
+      onclick="veranderContent(5, 'six');"    
+      shape="poly" coords="655,376,781,493" href="#" alt="assesoires">
+      <area 
+      onmouseover="swapImage('heren-bw', 'pet.jpg');" 
+      onmouseout="swapImage('heren-bw', 'mannen-zw.jpg');"
+      onclick="veranderContent(6, 'seven');"    
+      shape="poly" coords="576,56,580,29,602,12,637,11,660,30,665,55,695,72,676,93,645,94,616,85" href="#"  alt="pet">
+      <area shape="rect"  href="#">
+    </map>
+    </div>
+        <div id="kledingcontent-mannen" class="dynamiccontent">
+         <div class="dynamiccover" id="zomerkleding">zomerkleding</div>
+            <div class="dynamictext">
+              <h1 id="naam">Naam</h1>
+              <h2 id="kleur">kleur</h2>
+              <div id="omschrijving">omschrijving</div>
+              <div id="prijs">prijs</div>
+            </div>  
+        </div> <!-- end kledingcontent -->
+  </main>
+</body>
+</html>

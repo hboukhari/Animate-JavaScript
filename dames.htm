@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>dames look</title>
+  <style>@import url('https://fonts.googleapis.com/css?family=Lato')</style>
+  <link rel="stylesheet" href="../css/myStyle.css" > 
+  <script src="../js/hp_dames-kleding_array.js"></script>
+  <script type="text/javascript" src="../js/javascript.js"></script>
+</head>
+<body>
+  <main>
+  <div class="container">
+    <div class="homebtn"><a href="../him-and-her-2.html">Home</a></div>
+  	<img id="dames-bw" src="../images/dames/look-1/hmprod-b-w.jpg" alt="dames look" usemap="#Map">
+      <map name="Map">
+        <area id="dames1" 
+          shape="rect" coords="159,296,291,439" target="_self" alt="zonnebril" 
+          onmouseover="swapImage('dames-bw', 'hmprod-bril.jpg');" 
+          onmouseout="swapImage('dames-bw', 'hmprod-b-w.jpg');"
+          onclick="veranderContent(0, 'one');" 
+          href="#" >
+        <area id="dames2" 
+          onmouseover="swapImage('dames-bw', 'hmprod-sjaal.jpg');" 
+          onmouseout="swapImage('dames-bw', 'hmprod-b-w.jpg');"
+          onclick="veranderContent(1, 'two');" 
+          href="#" shape="poly" coords="276,73,307,70,328,92,334,116,316,135,285,148,341,173,395,219,392,228,317,220,295,204,277,174,250,158,204,203,169,204,180,193,219,167,232,104,249,80"  target="_self" alt="sjaal">
+        <area id="dames3"
+          onmouseover="swapImage('dames-bw', 'hmprod-rok.jpg');" 
+          onmouseout="swapImage('dames-bw', 'hmprod-b-w.jpg');"
+          onclick="veranderContent(2, 'three');" 
+          href="#" shape="poly" coords="373,473,448,357,493,265,467,177,458,113,447,65,412,19,727,17,841,66,868,86,869,458,769,491,682,510,549,510,465,508"  alt="rok">
+        <area 
+          onmouseover="swapImage('dames-bw', 'hmprod-oorbellen.jpg');" 
+          onmouseout="swapImage('dames-bw', 'hmprod-b-w.jpg');"
+          onclick="veranderContent(3, 'four');"
+          href="#" 
+          shape="poly" coords="373,304,406,370"  href="#" alt="oorbellen">
+        <area 
+          onmouseover="swapImage('dames-bw', 'hmprod-slippers.jpg');" 
+          onmouseout="swapImage('dames-bw', 'hmprod-b-w.jpg');"
+          onclick="veranderContent(4, 'five');"
+          href="#"
+          shape="poly" coords="22,64,31,50,50,45,61,28,78,16,113,31,136,42,150,55,184,56,218,72,235,97,219,114,191,117,170,118,149,142,172,160,166,179,136,187,88,188,55,172,30,158,12,148,-21,142,-31,118,-37,109,-15,91"  alt="sandalen">
+  	    <area shape="poly" coords="373,338" href="#">
+        <area shape="rect" href="#">
+     </map>
+       <div id="kledingcontent" class="dynamiccontent">
+         <div class="dynamiccover" id="zomerkleding">zomerkleding</div>
+            <div class="dynamictext">
+              <h1 id="naam">Naam</h1>
+              <h2 id="kleur">kleur</h2>
+              <div id="omschrijving">omschrijving</div>
+              <div id="prijs">prijs</div>
+            </div>  
+        </div> <!-- end kledingcontent -->
+    </div>
+  </main>
+</body>
+</html>
